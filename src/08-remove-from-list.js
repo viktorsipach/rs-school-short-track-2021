@@ -17,8 +17,8 @@
  * }
  */
 
-function removeKFromList(l) {
-  return Object.entries(l);
+function removeKFromList(/* l, k */) {
+  throw new Error('Not implemented');
 }
 
 module.exports = removeKFromList;
